@@ -1,5 +1,5 @@
 let currentSlide = 0;
-  const totalSlides = 4;
+  const totalSlides = document.querySelectorAll('.carousel-slide').length;
   let autoplayInterval;
 
   function updateCarousel() {
